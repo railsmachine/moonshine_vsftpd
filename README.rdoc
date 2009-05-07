@@ -15,7 +15,7 @@ IMPORTANT: comment out this line in /etc/pam.d/vsftpd to use non-interactive she
 
 === Instructions
 
-* <tt>script/plugin install git://github.com/ACCOUNT/moonshine_vsftpd.git</tt>
+* <tt>script/plugin install git://github.com/railsmachine/moonshine_vsftpd.git</tt>
 * Configure settings if needed. See template for available options.
     configure(:vsftpd => {:foo => true})
 * Include the plugin and recipe(s) you want to use in your Moonshine manifest.
